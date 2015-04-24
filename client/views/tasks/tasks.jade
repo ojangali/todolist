@@ -1,0 +1,12 @@
+
+h1 TASKS
+
+form(name='taskForm', novalidate)
+  .form-group
+    label(for='title') Title
+    input.form-control#title(name='title',type='text',ng-model='task.title')
+  .form-group
+    label(for='dueDate') Due Date
+    input.form-control#duedate(name='dueDate', type='date', ng-model='task.dueDate')
+  .form-group
+    label(for='priority')
